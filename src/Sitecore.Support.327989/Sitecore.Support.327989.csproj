@@ -74,7 +74,7 @@
     <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Shell\Applications\Analytics\Personalization\FieldTypes\ProfileCardForm.aspx" />
+    <Content Include="sitecore\shell\Applications\Analytics\Personalization\FieldTypes\ProfileCardForm.aspx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
