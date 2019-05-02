@@ -58,12 +58,10 @@
 
           // Sitecore.Support.Fix +++
           string keyLabel = contentProfileKeyData.DisplayName;
-
-          Log.Info(">>> contentProfileKeyData.ProfileKeyDefinitionId: '" + contentProfileKeyData.ProfileKeyDefinitionId + "'", this);
-
+          
           if (string.IsNullOrWhiteSpace(keyLabel))
           {
-            Log.Info(">>> keyLabel is null or empty '", this);
+            Log.Debug("[Sitecore.Support.327989] 'contentProfileKeyData.DisplayName' is null or empty, the 'contentProfileKeyData.Key' value is used", this);
             keyLabel = contentProfileKeyData.Key;
           }
 
